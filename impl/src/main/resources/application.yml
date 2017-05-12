@@ -1,0 +1,11 @@
+server:
+  context-path: /
+  servlet-path: /config
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/guillepb10/rol-stories-configuration.git
+          username: guillepb10
+          password: M1thr@nd1r

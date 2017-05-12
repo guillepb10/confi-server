@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.rol.stories.arch.services</groupId>
+    <artifactId>config-server</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>rol-stories-config-server</name>
+    <description>Centralized config server</description>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+
+        <docker.push.registry>104946013499.dkr.ecr.us-west-2.amazonaws.com/rol-stories-docker-repo</docker.push.registry>
+    </properties>
+
+    <modules>
+        <module>impl</module>
+        <module>docker</module>
+        <module>acceptance</module>
+    </modules>
+
+</project>
