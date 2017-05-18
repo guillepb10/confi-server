@@ -8,6 +8,10 @@
     <artifactId>rol-stories-config-server-docker</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
+    <properties>
+        <docker.push.registry>04946013499.dkr.ecr.us-west-2.amazonaws.com/rol-stories-docker-repo</docker.push.registry>
+    </properties>
+
     <build>
         <plugins>
             <plugin>

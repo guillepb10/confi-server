@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.rol.stories.arch.services</groupId>
-    <artifactId>config-server</artifactId>
+    <artifactId>rol-stories-config-server</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
