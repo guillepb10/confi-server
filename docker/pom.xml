@@ -9,7 +9,7 @@
     <version>1.0.0-SNAPSHOT</version>
 
     <properties>
-        <docker.push.registry>104946013499.dkr.ecr.us-west-2.amazonaws.com</docker.push.registry>
+        <docker.push.registry>780701735383.dkr.ecr.eu-west-1.amazonaws.com</docker.push.registry>
     </properties>
 
     <build>
