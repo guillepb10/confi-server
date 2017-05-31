@@ -38,7 +38,7 @@
                                         <id>spring-boot-assembly</id>
                                         <fileSets>
                                             <fileSet>
-                                                <directory>${basedir}/impl/../target/</directory>
+                                                <directory>${project.basedir}/../impl/target/</directory>
                                                 <includes>
                                                     <include>*.jar</include>
                                                 </includes>
