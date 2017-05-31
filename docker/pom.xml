@@ -48,7 +48,7 @@
                                     </inline>
                                 </assembly>
                                 <entryPoint>
-                                    <shell>java -jar /maven/${project.artifactId}-${project.version}.jar</shell>
+                                    <shell>java -jar /maven/service.jar</shell>
                                 </entryPoint>
                             </build>
                             <run>
