@@ -6,6 +6,7 @@ stage('Checkout Global Library') {
     }
     steps {
         sh 'git clone https://github/guillepb10/scm.git'
-        load 'scm/src/main/groovy/base.groovy'
+        def base = load 'scm/src/main/groovy/base.groovy'
+        base.run();
     }
 }
