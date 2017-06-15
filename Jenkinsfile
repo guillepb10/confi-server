@@ -4,9 +4,8 @@ stage('Checkout Global Library') {
     node{
         label 'ecs-slave'
     }
-    steps {
-        sh 'git clone https://github/guillepb10/scm.git'
-        def base = load 'scm/src/main/groovy/base.groovy'
-        base.run();
-    }
+
+    sh 'git clone https://github/guillepb10/scm.git'
+    def base = load 'scm/src/main/groovy/base.groovy'
+    base.run();
 }
